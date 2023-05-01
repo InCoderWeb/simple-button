@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.inBtn{
+    color: #fff;
+    user-select: auto;
+    padding: 6px 15px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .6s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transform: scale(.9);
+}
+
+.inBtn:hover{
+    transform: scale(1);
+}
+
+.inBtn-primary{
+    border: 2px solid #3cc091;
+    background: #3cc091;
+}
+
+.inBtn-danger{
+    border: 2px solid #f42c53;
+    background: #f42c53;
+}
+
+.inBtn-info{
+    border: 2px solid #0b97b4;
+    background: #0b97b4;
+}
